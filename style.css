@@ -1,9 +1,21 @@
+/* ancestor styles */
+body { 
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px 40px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+}
 /* Styles for top container */
 .container-top {
   background-color: #1f2937;
   color: white;
-  padding: 20px 200px 0 200px;  
 }
+
 
 ul {
     list-style: none;
@@ -14,20 +26,43 @@ a {
     color: white;
 }
 
-.header {
+
+.header, .container-hero {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding: 10px 200px 50px 200px;
 }
 
 .header-link {
+    font-size: 18px;
+    color:#e5e7eb;
     display: flex;
     justify-content: end;
     gap: 15px;
     margin-top: 0;
 }
 
-.hero-main
+
+.hero-left {
+    flex-direction: column;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    color:#f9faf8;
+    font-weight: 800;
+}
+
+.hero-second-text {
+    font-size: 18px;
+    color:#e5e7eb;
+    margin-bottom: 10px;
+}
+
+.container-hero button {
+    border-color: #3882f6;
+}
+
 
 /* Styles for first middle container */
 
