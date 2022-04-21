@@ -1,0 +1,33 @@
+/* Styles for top container */
+.container-top {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 200px 0 200px;  
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.header-link {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-top: 0;
+}
+
+.hero-main
+
+/* Styles for first middle container */
+
