@@ -9,6 +9,7 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: bold;
+    font-size: 18px;
 }
 /* Styles for top container */
 .container-top {
@@ -65,4 +66,49 @@ a {
 
 
 /* Styles for first middle container */
+.container-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    gap: 50px;
+}
 
+.information-header, .text {
+    color: #1f2937;
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: 800;
+}
+.image-space {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+/* styles for quote container */
+.container-quote {
+    background-color: #e5e7eb;
+    padding: 50px 200px;
+    text-align: center;
+}
+
+.quote {
+   color: #1f2937; 
+   font-size: 36px;
+   font-style: italic;
+   font-weight:lighter;
+   margin-bottom: 10px;
+}
+
+.quote-person {
+   font-weight: bold;
+   text-indent: 50%;
+}
