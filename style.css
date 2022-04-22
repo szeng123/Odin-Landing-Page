@@ -114,3 +114,21 @@ a {
 }
 
 /* styles on the bottom container */
+.container-bottom {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.email-signup {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px 100px;
+}
+
+.signup-box {
+    display: flex;
+    flex-direction: column;
+}
