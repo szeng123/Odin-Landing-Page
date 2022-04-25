@@ -1,6 +1,9 @@
 /* ancestor styles */
 body { 
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 button {
@@ -98,6 +101,7 @@ a {
     background-color: #e5e7eb;
     padding: 50px 200px;
     text-align: center;
+    margin: 50px 0;
 }
 
 .quote {
@@ -117,7 +121,8 @@ a {
 .container-bottom {
     display: flex;
     justify-content: center;
-    margin: 50px;
+    align-items: center;
+    
 }
 
 .email-signup {
@@ -125,10 +130,31 @@ a {
     justify-content: space-between;
     background-color: #3882f6;
     border-radius: 10px;
-    padding: 30px 100px;
+    padding: 40px 100px;
+    gap: 50px;
+    margin: 0 0 60px 0;
 }
 
-.signup-box {
+.signup-header, .signup-text, .container-bottom button {
+    color: #f9faf8;
+}
+
+.signup-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.container-bottom button {
+    border-color: #f9faf8;
+    border-style: solid;
+}
+
+/* footer */ 
+.footer {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px;
 }
